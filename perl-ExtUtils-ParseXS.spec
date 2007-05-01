@@ -1,6 +1,6 @@
 %define	module	ExtUtils-ParseXS
 %define	name	perl-%{module}
-%define	version	2.16
+%define	version	2.18
 %define	release	%mkrel 1
 
 Name:		%{name}
