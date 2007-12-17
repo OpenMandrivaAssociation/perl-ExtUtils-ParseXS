@@ -14,7 +14,6 @@ Url:		http://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
 BuildRequires:	perl-ExtUtils-CBuilder
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 ExtUtils::ParseXS will compile XS code into C code by embedding the constructs
