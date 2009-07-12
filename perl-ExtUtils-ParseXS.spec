@@ -1,20 +1,19 @@
-%define	module	ExtUtils-ParseXS
-%define	name	perl-%{module}
-%define	version	2.19
-%define	release	%mkrel 2
+%define	upstream_name	 ExtUtils-ParseXS
+%define	upstream_version 2.20
 
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		perl-%{upstream_name}
+Version:	%perl_convert_version %{upstream_version}
+Release:	%mkrel 1
+
 Summary:	Converts Perl XS code into C code 
-License:	GPL or Artistic
+License:	GPL+ or Artistic
 Group:		Development/Perl
-Source:		http://search.cpan.org/CPAN/authors/id/K/KW/KWILLIAMS/%{module}-%{version}.tar.bz2
-Url:		http://search.cpan.org/dist/%{module}/
-BuildRequires:	perl-devel
+Url:		http://search.cpan.org/dist/%{upstream_name}/
+Source0:	http://search.cpan.org/CPAN/authors/id/K/KW/KWILLIAMS/%{upstream_name}-%{upstream_version}.tar.gz
+
 BuildRequires:	perl-ExtUtils-CBuilder
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 ExtUtils::ParseXS will compile XS code into C code by embedding the constructs
@@ -23,7 +22,7 @@ necessary to let Perl access those functions.  The compiler uses typemaps to
 determine how to map C function parameters and variables to Perl values.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
