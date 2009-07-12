@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://search.cpan.org/CPAN/authors/id/K/KW/KWILLIAMS/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	perl-devel
 BuildRequires:	perl-ExtUtils-CBuilder
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
