@@ -1,5 +1,5 @@
 %define	upstream_name	 ExtUtils-ParseXS
-%define	upstream_version 2.20
+%define	upstream_version 2.2002
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -44,5 +44,4 @@ rm -rf %{buildroot}
 %doc Changes INSTALL
 %{perl_vendorlib}/ExtUtils
 %{_mandir}/*/*
-
 
