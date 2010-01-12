@@ -1,5 +1,5 @@
 %define	upstream_name	 ExtUtils-ParseXS
-%define	upstream_version 2.21
+%define upstream_version 2.22
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -30,7 +30,7 @@ determine how to map C function parameters and variables to Perl values.
 %make
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
@@ -44,4 +44,3 @@ rm -rf %{buildroot}
 %doc Changes INSTALL
 %{perl_vendorlib}/ExtUtils
 %{_mandir}/*/*
-
