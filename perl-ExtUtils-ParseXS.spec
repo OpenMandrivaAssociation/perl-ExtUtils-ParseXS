@@ -1,5 +1,5 @@
 %define	upstream_name	 ExtUtils-ParseXS
-%define upstream_version 2.2203
+%define upstream_version 2.2205
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
