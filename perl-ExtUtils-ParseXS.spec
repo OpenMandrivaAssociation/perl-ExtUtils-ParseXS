@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 7
+Release:	%mkrel 8
 
 Summary:	Converts Perl XS code into C code 
 License:	GPL+ or Artistic
@@ -59,55 +59,55 @@ rm -rf %{buildroot}
 + Revision: 667133
 - mass rebuild
 
-* Sat Nov 13 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.600-4mdv2011.0
+* Sat Nov 13 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.600-4mdv2011.0
 + Revision: 597096
 - rebuild
 
-* Wed Jul 28 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.600-3mdv2011.0
+* Wed Jul 28 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.600-3mdv2011.0
 + Revision: 562424
 - rebuild
 
-* Wed Jul 21 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.600-2mdv2011.0
+* Wed Jul 21 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.600-2mdv2011.0
 + Revision: 556438
 - rebuild for perl 5.12
 
-* Mon Jul 12 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.600-1mdv2011.0
+* Mon Jul 12 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.600-1mdv2011.0
 + Revision: 551220
 - update to 2.2206
 
-* Thu Mar 11 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.500-1mdv2010.1
+* Thu Mar 11 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.500-1mdv2010.1
 + Revision: 518075
 - update to 2.2205
 
-* Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.300-1mdv2010.1
+* Fri Feb 12 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.300-1mdv2010.1
 + Revision: 504487
 - update to 2.2203
 
-* Fri Jan 29 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.200-1mdv2010.1
+* Fri Jan 29 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.200-1mdv2010.1
 + Revision: 497904
 - update to 2.2202
 
-* Wed Jan 27 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.100-1mdv2010.1
+* Wed Jan 27 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.100-1mdv2010.1
 + Revision: 496996
 - update to 2.2201
 
-* Tue Jan 12 2010 Jérôme Quelin <jquelin@mandriva.org> 2.220.0-1mdv2010.1
+* Tue Jan 12 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.220.0-1mdv2010.1
 + Revision: 490072
 - update to 2.22
 
-* Fri Nov 06 2009 Jérôme Quelin <jquelin@mandriva.org> 2.210.0-1mdv2010.1
+* Fri Nov 06 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.210.0-1mdv2010.1
 + Revision: 460725
 - update to 2.21
 
-* Tue Sep 15 2009 Jérôme Quelin <jquelin@mandriva.org> 2.200.401-1mdv2010.0
+* Tue Sep 15 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.200.401-1mdv2010.0
 + Revision: 442938
 - update to 2.200401
 
-* Thu Jul 23 2009 Jérôme Quelin <jquelin@mandriva.org> 2.200.200-1mdv2010.0
+* Thu Jul 23 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.200.200-1mdv2010.0
 + Revision: 398840
 - update to 2.2002
 
-* Sun Jul 12 2009 Jérôme Quelin <jquelin@mandriva.org> 2.200.0-1mdv2010.0
+* Sun Jul 12 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 2.200.0-1mdv2010.0
 + Revision: 395036
 - adding missing buildrequires
 - update to 2.20
@@ -165,13 +165,13 @@ rm -rf %{buildroot}
 * Wed Jun 15 2005 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 2.11-1mdk
 - 2.11
 
-* Tue Jun 07 2005 Nicolas L�cureuil <neoclust@mandriva.org> 2.10-1mdk
+* Tue Jun 07 2005 Nicolas Lécureuil <neoclust@mandriva.org> 2.10-1mdk
 - 2.10
 
 * Thu Mar 31 2005 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 2.09-1mdk
 - 2.09
 
-* Thu Jun 03 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 2.08-1mdk
+* Thu Jun 03 2004 Per Ã˜yvind Karlsen <peroyvind@linux-mandrake.com> 2.08-1mdk
 - 2.08
 
 * Tue Feb 17 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.07-1mdk
